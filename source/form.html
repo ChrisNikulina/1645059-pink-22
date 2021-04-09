@@ -50,7 +50,7 @@
           </p>
         </div>
         <div class="competition-form__container">
-          <div class="competition-form__group competition-form__group--name">
+          <fieldset class="competition-form__group competition-form__group--name">
             <div class="competition-form__input-wrapper">
               <label class="competition-form__label competition-form__label--pink competition-form__label--name" for="surname">Фамилия</label>
               <input class="competition-form__input competition-form__input--name" type="text" name="name" id="surname" placeholder="Укажите фамилию" required>
@@ -63,30 +63,32 @@
               <label class="competition-form__label competition-form__label--pink competition-form__label--name" for="patronymic">Отчество</label>
               <input class="competition-form__input competition-form__input--name" type="text" name="name" id="patronymic" placeholder="Ну и отвечтво тоже">
             </div>
-            <div class="competition-form__group competition-form__group--border competition-form__group--accomplishment">
-              <h3 class="competition-form__title">Ваши безбашенные достижения в путешествии</h3>
-              <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="selfie" checked>
-              <label class="competition-form__label competition-form__label--checkbox" for="selfie">Сделал селфи с акулой</label>
-              <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="beach" checked>
-              <label class="competition-form__label competition-form__label--checkbox" for="beach">Обгорел на пляже</label>
-              <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="norris">
-              <label class="competition-form__label competition-form__label--checkbox" for="norris">Видел Чака Норриса</label>
-              <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="souvenirs">
-              <label class="competition-form__label competition-form__label--checkbox" for="souvenirs">Накупил сувениров</label>
-              <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="tower" checked>
-              <label class="competition-form__label competition-form__label--checkbox" for="tower">Удержал башню</label>
-              <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="smash">
-              <label class="competition-form__label competition-form__label--checkbox" for="smash">Разгромил отель</label>
-            </div>
-            <div class="competition-form__group competition-form__group--border competition-form__group--contact">
-              <h3 class="competition-form__title">контактная информация</h3>
+          </fieldset>
+
+          <fieldset class="competition-form__group competition-form__group--border competition-form__group--accomplishment">
+            <legend class="competition-form__title">Ваши безбашенные достижения в путешествии</legend>
+            <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="selfie" checked>
+            <label class="competition-form__label competition-form__label--checkbox" for="selfie">Сделал селфи с акулой</label>
+            <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="beach" checked>
+            <label class="competition-form__label competition-form__label--checkbox" for="beach">Обгорел на пляже</label>
+            <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="norris">
+            <label class="competition-form__label competition-form__label--checkbox" for="norris">Видел Чака Норриса</label>
+            <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="souvenirs">
+            <label class="competition-form__label competition-form__label--checkbox" for="souvenirs">Накупил сувениров</label>
+            <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="tower" checked>
+            <label class="competition-form__label competition-form__label--checkbox" for="tower">Удержал башню</label>
+            <input class="competition-form__checkbox" type="checkbox" name="accomplishment" id="smash">
+            <label class="competition-form__label competition-form__label--checkbox" for="smash">Разгромил отель</label>
+          </fieldset>
+          <div class="competition-form__group competition-form__group--border competition-form__group--contact">
+            <h3 class="competition-form__title">контактная информация</h3>
               <div class="competition-form__input-wrapper competition-form__input-wrapper--tel">
                 <label class="competition-form__label competition-form__label--pink" for="tel">Номер телефона</label>
-                <input class="competition-form__input" type="text" name="contact" id="tel" placeholder="Номер, пожалуйста">
+                <input class="competition-form__input" type="tel" name="contact" id="tel" placeholder="Номер, пожалуйста">
               </div>
               <div class="competition-form__input-wrapper competition-form__input-wrapper--mail">
                 <label class="competition-form__label competition-form__label--pink" for="mail">Адрес почты</label>
-                <input class="competition-form__input" type="text" name="contact" id="mail" placeholder="Введите почту" required>
+                <input class="competition-form__input" type="mail" name="contact" id="mail" placeholder="Введите почту" required>
               </div>                                                </div>
               <div class="competition-form__group competition-form__group--border competition-form__group--app">
                 <h3 class="competition-form__title">С каким приложением путешествовали?</h3>
@@ -102,7 +104,7 @@
                 <textarea class="competition-form__textarea" name="emotion" id="how" cols="30" rows="10" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
               </div>
               <input class="competition-form__button button button--squere" type="submit" value="Отправить форму">
-            </div>
+          </div>
         </div>
       </form>
     </main>
