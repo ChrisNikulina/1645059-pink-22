@@ -1,0 +1,26 @@
+.price {
+  text-transform: uppercase;
+}
+
+.price__header {
+  background-color: $black--dirty;
+  color: $white;
+}
+
+.price__name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.price__cost {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.price__option {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+}

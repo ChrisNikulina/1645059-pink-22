@@ -1,0 +1,26 @@
+.reviews__list {
+  text-align: center;
+}
+
+.reviews__author-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: $black;
+}
+
+.reviews__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: $black--dirty;
+}
+
+.reviews__author-info {
+  display: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: $black--dirty;
+}

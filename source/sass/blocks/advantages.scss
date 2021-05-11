@@ -1,0 +1,41 @@
+.advantages {
+  font-family: $font-family;
+}
+
+.advantages__list {
+  list-style: none;
+}
+
+.advantages__slogan {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.advantages__inner {
+  background-color: $grey;
+}
+
+.advantages__item {
+  text-align: center;
+}
+
+.advantages__title {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.advantages__description {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.advantages__pic {
+  display: none;
+}
+
+.advantages__pic--friends {
+  display: block;
+}
