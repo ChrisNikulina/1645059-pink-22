@@ -7,14 +7,14 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
-  color: $black;
+  color: $author-name-color;
 }
 
 .reviews__text {
   font-weight: normal;
   font-size: 14px;
   line-height: 30px;
-  color: $black--dirty;
+  color: $text-color;
 }
 
 .reviews__author-info {
@@ -22,5 +22,5 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 30px;
-  color: $black--dirty;
+  color: $text-color;
 }

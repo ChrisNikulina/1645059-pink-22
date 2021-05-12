@@ -1,0 +1,16 @@
+.copyright__text {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  color: $black--dirty;
+}
+
+.copyright__link {
+  font-size: 0;
+  display: block;
+  width: 27px;
+  height: 34px;
+  background-image: url("../img/html-academy.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

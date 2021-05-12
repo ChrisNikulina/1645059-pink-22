@@ -10,7 +10,7 @@
   font-size: 24px;
   line-height: 29px;
   font-weight: 300;
-  color: $black--lighter;
+  color: $black--dirty;
   margin-bottom: 30px;
   width: 100%;
 }
@@ -22,14 +22,14 @@
 .contacts__title {
   font-weight: bold;
   line-height: 25px;
-  color: $black--lighter;
+  color: $black--dirty;
 }
 
 .contacts__text {
   font-weight: 300;
   font-size: 24px;
   line-height: 33px;
-  color: $fuchsia;
+  color: $contacts-information-color;
 }
 
 .contacts__phone {
