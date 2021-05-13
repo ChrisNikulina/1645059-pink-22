@@ -1,0 +1,50 @@
+.store {
+  background-color: $black--blue;
+  color: $main-article-color;
+  text-align: center;
+  font-family: $font-family;
+}
+
+.store__slogan {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.store__list {
+  height: 120px;
+  list-style: none;
+  padding: 0;
+}
+
+.store__item {
+  width: 50px;
+  margin: 0 30px 0 0;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.store__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.store__link {
+  display: block;
+}
+
+.store__link--apple {
+  height: 56px;
+  background: url("../../img/apple-logo.svg") no-repeat scroll 0 0;
+}
+
+.store__link--gplay {
+  height: 47px;
+  background: url("../../img/android-logo.svg") no-repeat scroll 4px 0;
+}
+
+.store__link--microsoft {
+  height: 41px;
+  background: url("../../img/microsoft-logo.svg") no-repeat scroll 3px 0;
+}

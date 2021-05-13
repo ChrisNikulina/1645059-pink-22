@@ -1,0 +1,28 @@
+.research {
+  display: none;
+}
+
+.research__inner {
+  text-align: center;
+}
+
+.research__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  color: $title-color;
+}
+
+.research__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: $black--dirty;
+}
+
+.research__link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $fuchsia;
+  text-decoration: underline;
+}
