@@ -19,3 +19,14 @@
   color: $white;
   border-color: $white;
 }
+
+.button--squere {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: $white;
+  background-color: $green--light;
+  border: none;
+}

@@ -1,0 +1,21 @@
+.proem {
+  background-color: $black--blue;
+  background-image: url("../img/back-mobile.png");
+  background-position: top center;
+  background-size: auto 462px;
+  background-repeat: no-repeat;
+}
+
+.proem__wrapper {
+  min-height: 236px;
+  padding-top: 40px;
+}
+
+.proem__heading {
+  font-style: normal;
+  font-weight: $small;
+  font-size: 24px;
+  line-height: 33px;
+  color: $main-article-color;
+  text-align: center;
+}
