@@ -4,15 +4,16 @@
 }
 
 .button--round {
-  font-weight: bold;
+  font-weight: $bold;
   font-size: 18px;
   line-height: 18px;
   text-decoration: none;
   padding-top: 21px;
   padding-bottom: 21px;
   width: 280px;
-  border: 3px solid $white;
-  border-radius: 29px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 30px;
 }
 
 .button--white {
@@ -20,9 +21,21 @@
   border-color: $white;
 }
 
+.button--pink {
+  color: $fuchsia;
+  border-color: $fuchsia;
+  background-color: transparent;
+}
+
+.button--grey {
+  color: $grey--lighter;
+  border-color: $grey--lighter;
+  background-color: transparent;
+}
+
 .button--squere {
   font-style: normal;
-  font-weight: bold;
+  font-weight: $bold;
   font-size: 18px;
   line-height: 30px;
   text-transform: uppercase;
