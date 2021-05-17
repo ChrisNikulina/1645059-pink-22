@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <header class="page-header">
@@ -14,22 +15,22 @@
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a href="index.html">
+              <a class="site-list__link" href="index.html">
                 Главная
               </a>
             </li>
             <li class="site-list__item">
-              <a href="catalog.html">
+              <a class="site-list__link" href="catalog.html">
                 Фотографии
               </a>
             </li>
             <li class="site-list__item site-list__item--active">
-              <a href="form.html">
+              <a class="site-list__link" href="form.html">
                 Конкурс
               </a>
             </li>
             <li class="site-list__item">
-              <a href="#">
+              <a class="site-list__link" href="#">
                 HTML Academy
               </a>
             </li>
@@ -81,7 +82,7 @@
             <label class="competition-form__label competition-form__label--checkbox" for="smash">Разгромил отель</label>
           </fieldset>
           <div class="competition-form__group competition-form__group--border competition-form__group--contact">
-            <h3 class="competition-form__title">контактная информация</h3>
+            <h3 class="competition-form__title competition-form__title--contact">контактная информация</h3>
               <div class="competition-form__input-wrapper competition-form__input-wrapper--tel">
                 <label class="competition-form__label competition-form__label--pink" for="tel">Номер телефона</label>
                 <input class="competition-form__input" type="tel" name="contact" id="tel" placeholder="Номер, пожалуйста">

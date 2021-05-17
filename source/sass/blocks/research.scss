@@ -7,7 +7,7 @@
 }
 
 .research__title {
-  font-weight: bold;
+  font-weight: $bold;
   font-size: 30px;
   line-height: 36px;
   color: $title-color;
@@ -20,7 +20,7 @@
 }
 
 .research__link {
-  font-weight: normal;
+  font-weight: $normal;
   font-size: 14px;
   line-height: 24px;
   color: $fuchsia;

@@ -1,0 +1,107 @@
+.competition-form__info {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: $black--dirty;
+}
+
+.competition-form__group--border {
+  border-style: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.competition-form__group--name {
+  padding-bottom: 27px;
+  border: none;
+}
+
+.competition-form__group--contact {
+  padding-top: 30px;
+  padding-bottom: 36px;
+}
+
+.competition-form__group--accomplishment {
+  background-color: $grey;
+}
+
+.competition-form__group--app {
+  background-color: $grey;
+}
+
+.competition-form__label {
+  color: $black--dirty;
+  font-weight: $normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.competition-form__label--pink {
+  font-size: 14px;
+  line-height: 30px;
+  color: $fuchsia;
+  padding-left: 23px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.competition-form__label--radio {
+  margin-bottom: 45px;
+}
+
+.competition-form__title {
+  color: $fuchsia;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  font-weight: $normal;
+  padding-top: 36px;
+  padding-bottom: 43px;
+  text-transform: uppercase;
+}
+
+.competition-form__title--emotion {
+  padding-top: 44px;
+  padding-bottom: 21px;
+}
+
+.competition-form__textarea {
+  font-style: normal;
+  font-weight: $normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: $black--dirty;
+  border: 2px solid $grey--light;
+  border-radius: 1px;
+}
+
+.competition-form__textarea::-webkit-input-placeholder {
+  font-family: inherit;
+  line-height: 30px;
+  font-size: 18px;
+  color: $black--dirty;
+  text-align: center;
+}
+
+.competition-form__button {
+  width: 276px;
+  height: 59px;
+  margin: 0 auto;
+}
+
+.competition-form__input {
+  width: 100%;
+  border: 2px solid $grey--light;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.competition-form__input::-webkit-input-placeholder {
+  font-family: inherit;
+  color: $black--dirty;
+  line-height: inherit;
+}
+
+.competition-form__title--contact {
+  display: none;
+}
