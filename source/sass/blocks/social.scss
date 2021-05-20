@@ -1,8 +1,19 @@
+.social {
+  margin-top: 48px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 0;
+  }
+}
+
 .social__list {
+  display: flex;
   list-style: none;
+  padding: 0;
 }
 
 .social__link {
+  padding-left: 0;
   font-size: 0;
   display: block;
   background-repeat: no-repeat;
@@ -20,6 +31,8 @@
 
 .social__link--facebook {
   background-image: url("../img/facebook.svg");
+  margin-left: 11px;
+  margin-right: 11px;
 }
 
 .social__link--youtube {

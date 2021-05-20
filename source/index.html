@@ -2,12 +2,17 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Пинк</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <header class="page-header">
-      <a class="page-header__logo" href="index.html"></a>
+      <a class="page-header__logo" href="index.html">
+        <img class="page-header__logo--mobile" src="img/pink-header-logo-mobile.svg" width="74" height="23" alt="Логотип пинк">
+        <img class="page-header__logo--tablet" src="img/logotype-header-tablet.svg" width="145" height="40" alt="Логотип пинк">
+        <img class="page-header__logo--desktop" src="img/logotype-header-desktop.svg" width="147" height="40" alt="Логотип пинк">
+      </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">
           <span class="visually-hidden">Открыть меню</span>
@@ -39,23 +44,27 @@
       </nav>
     </header>
     <main class="page-main">
-      <h1 class="visually-hidden">Приложение для смартфона "Пинк"</h1>
-      <section class="store">
-        <div class="store__wrapper">
-          <h2 class="store__slogan">Взгляните на жизнь иначе!</h2>
-          <a class="button button--round button--white" href="#">Скачать приложение</a>
-          <ul class="store__list">
-            <li class="store__item">
-              <a class="store__link  store__link--apple" href="#"></a>
-            </li>
-            <li class="store__item">
-              <a class="store__link  store__link--gplay" href="#"></a>
-            </li>
-            <li class="store__item">
-              <a class="store__link  store__link--microsoft" href="#"></a>
-            </li>
-          </ul>
-          <p class="store__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      <section class="intro">
+        <div class="intro__container">
+          <h1 class="visually-hidden">Приложение для смартфона "Пинк"</h1>
+          <div class="store">
+            <div class="store__wrapper">
+              <h2 class="store__slogan">Взгляните на жизнь иначе!</h2>
+              <a class="button button--round button--white" href="#">Скачать приложение</a>
+              <ul class="store__list">
+                <li class="store__item">
+                  <a class="store__link  store__link--apple" href="#"></a>
+                </li>
+                <li class="store__item">
+                  <a class="store__link  store__link--gplay" href="#"></a>
+                </li>
+                <li class="store__item">
+                  <a class="store__link  store__link--microsoft" href="#"></a>
+                </li>
+              </ul>
+              <p class="store__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+            </div>
+          </div>
         </div>
       </section>
       <section class="advantages">
@@ -101,9 +110,11 @@
             </div>
             <div class="research">
               <div class="research__inner">
-                <h2 class="research__title">Эффект на&nbsp;24 часа!</h2>
-                <p class="research__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
-                <a class="research__link" href="#">Узнать больше об исследовании</a>
+                <div class="research__item">
+                  <h2 class="research__title">Эффект на&nbsp;24 часа!</h2>
+                  <p class="research__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+                  <a class="research__link" href="#">Узнать больше об исследовании</a>
+                </div>
               </div>
             </div>
           </div>
@@ -150,15 +161,15 @@
               <tr class="price__row">
                 <th class="price__header price__header--empty"></th>
                 <th class="price__header">
-                  <span class="price__name">База</span>
+                  <span class="price__name">База</span><br>
                   <span class="price__cost">1,99 USD</span>
                 </th>
                 <th class="price__header price__header--hit">
-                  <span class="price__name">Стандарт</span>
+                  <span class="price__name">Стандарт</span><br>
                   <span class="price__cost">3,99 USD</span>
                 </th>
                 <th class="price__header">
-                  <span class="price__name">Анлим</span>
+                  <span class="price__name">Анлим</span><br>
                   <span class="price__cost">9,99 USD</span>
                 </th>
               </tr>
@@ -219,17 +230,17 @@
               Остались вопросы?<br>
               Свяжитесь с нами!
             </h2>
-            <div class="contacts__item">
+            <div class="contacts__item contacts__item--half">
               <p class="contacts__title">Звоните:</p>
               <a class="contacts__phone" href="tel:+78125556666">
                 +7 (812) 555-66-66
               </a>
             </div>
-            <div class="contacts__item">
+            <div class="contacts__item contacts__item--half">
               <p class="contacts__title">Пишите:</p>
               <a class="contacts__text" href="#">mail@htmlacademy.ru</a>
             </div>
-            <div class="contacts__item">
+            <div class="contacts__item contacts__item--adress">
               <p class="contacts__title">Приезжайте в гости:</p>
               <span class="contacts__text">
                 ул. Большая<br>
@@ -241,7 +252,10 @@
     </main>
     <footer class="page-footer">
       <div class="page-footer__wrapper">
-        <a class="logo" href="#"></a>
+        <a class="page-footer__logo" href="#">
+          <img class="page-footer__logo--tablet" src="./img/logotype-footer-tablet.svg" width="143" height="40" alt="Логотип пинк">
+          <img class="page-footer__logo--desktop" src="./img/logotype-footer-desktop.svg" width="147" height="40" alt="Логотип пинк">
+        </a>
         <div class="page-footer__social social">
           <ul class="social__list">
             <li class="social__item">
